@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Log-Aggregation-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Log-Aggregation-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Log-Aggregation-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Log-Aggregation-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Log-Aggregation-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Log-Aggregation-Management?style=for-the-badge&logo=github&color=orange" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Log-Aggregation-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -76,67 +76,67 @@ The sector is **moderately fragmented** rather than a winner-take-all monopoly: 
 
 *Open-source GitHub repositories ranked in descending order by GitHub stargazers count.*
 
-### 1. 🚀 [SigNoz](https://github.com/SigNoz/signoz) [![GitHub Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+### 1. 🚀 [SigNoz](https://github.com/SigNoz/signoz) [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
 * **Description**: OpenTelemetry-native full-stack APM and observability platform using ClickHouse as its columnar datastore.
 * **Architecture**: Direct OTLP ingestion on ports `4317` / `4318`. Ingests logs, metrics, and distributed traces into a unified single-pane interface.
 * **Best For**: Engineering teams standardizing on OpenTelemetry who want an open-source Datadog alternative without per-host licensing fees.
 
-### 2. ⚡ [Grafana Loki](https://github.com/grafana/loki) [![GitHub Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)
+### 2. ⚡ [Grafana Loki](https://github.com/grafana/loki) [![GitHub_Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)
 * **Description**: The industry standard for cost-efficient, label-indexed log aggregation—designed as "like Prometheus, but for logs."
 * **Architecture**: Indexes only metadata labels rather than entire raw message text, storing compressed chunks in cheap object storage (S3/GCS/MinIO).
 * **Latest Updates**: Features results caching for the Thor query engine, case-insensitive regex execution, and Logline query-acceleration indexing.
 * **Best For**: Kubernetes clusters and teams already leveraging Grafana and Prometheus seeking minimal compute/storage overhead.
 
-### 3. 🦀 [Vector](https://github.com/vectordotdev/vector) [![GitHub Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)
+### 3. 🦀 [Vector](https://github.com/vectordotdev/vector) [![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)
 * **Description**: Ultra-high-performance, memory-safe observability data pipeline written in Rust for capturing, transforming, and routing telemetry.
 * **Architecture**: Features the Vector Remap Language (VRL) for real-time parsing, filtering, log masking, and adaptive multi-sink fanout.
 * **Best For**: Edge collectors, ingress proxies, and central pipeline gateways routing terabytes of raw logs across multiple SIEM and storage backends.
 
-### 4. 🔭 [OpenObserve](https://github.com/openobserve/openobserve) [![GitHub Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)
+### 4. 🔭 [OpenObserve](https://github.com/openobserve/openobserve) [![GitHub_Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)
 * **Description**: Cloud-native, high-throughput observability platform written in Rust with stateless compute and object-storage architecture.
 * **Architecture**: Built on Apache Arrow and DataFusion; provides 140x lower storage costs than Elasticsearch, unified logs, metrics, traces, and LLM observability.
 * **Latest Updates**: Includes AI Observability (annotation queues, playground testing), composite alert rules, SLO burn rates, and open-source Synthetics.
 * **Best For**: Teams needing a single, resource-efficient self-hosted platform covering APM, log search, and generative AI trace telemetry.
 
-### 5. 📊 [VictoriaMetrics / VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
+### 5. 📊 [VictoriaMetrics / VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
 * **Description**: High-capacity, cost-effective log management engine designed to process structured and unstructured logs with unmatched compression ratios.
 * **Architecture**: Features LogsQL query language, sub-second search times, up to 30x compression over raw logs, and seamless integration alongside VictoriaMetrics time-series.
 * **Best For**: High-throughput environments wanting predictable CPU/RAM footprints and simple single-binary or clustered operational models.
 
-### 6. 🔄 [Logstash](https://github.com/elastic/logstash) [![GitHub Stars](https://img.shields.io/github/stars/elastic/logstash?style=social&color=white)](https://github.com/elastic/logstash/stargazers)
+### 6. 🔄 [Logstash](https://github.com/elastic/logstash) [![GitHub_Stars](https://img.shields.io/github/stars/elastic/logstash?style=social&color=white)](https://github.com/elastic/logstash/stargazers)
 * **Description**: The veteran server-side data processing pipeline of the Elastic Stack that ingests data from a multitude of sources simultaneously.
 * **Architecture**: Extensible plugin ecosystem (hundreds of inputs, filters like Grok, and outputs) for transforming, mutating, and enriching log streams before indexing.
 * **Best For**: Complex enterprise legacy systems requiring sophisticated schema normalization, Grok pattern parsing, and multi-destination ingestion.
 
-### 7. 🔎 [OpenSearch](https://github.com/opensearch-project/OpenSearch) [![GitHub Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+### 7. 🔎 [OpenSearch](https://github.com/opensearch-project/OpenSearch) [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
 * **Description**: The 100% open-source (Apache 2.0) distributed search and analytics suite forked from Elasticsearch and Kibana.
 * **Architecture**: Built upon Apache Lucene; features distributed index sharding, OpenSearch Dashboards, neural search, and sparse index representations.
 * **Latest Updates**: Built on Lucene 10, delivering up to 60% lower search latency compared to 2.x and up to 80% versus 1.x.
 * **Best For**: Organizations demanding true open-source licensing without Elastic dual-license restrictions while maintaining full-text search power.
 
-### 8. 🌊 [Fluentd](https://github.com/fluent/fluentd) [![GitHub Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)
+### 8. 🌊 [Fluentd](https://github.com/fluent/fluentd) [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)
 * **Description**: CNCF graduated cross-platform log collector that unifies data collection and consumption with a unified JSON logging layer.
 * **Architecture**: Pluggable Ruby/C architecture with over 1,000 community plugins connecting to cloud storage, databases, message queues, and analytical stores.
 * **Best For**: Enterprise microservice architectures requiring robust buffering, multi-sink routing, and unified logging standards.
 
-### 9. ⚡ [Quickwit](https://github.com/quickwit-oss/quickwit) [![GitHub Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)
+### 9. ⚡ [Quickwit](https://github.com/quickwit-oss/quickwit) [![GitHub_Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)
 * **Description**: Sub-second full-text search engine written in Rust, purpose-designed to operate natively on top of cloud object storage (Amazon S3, Azure Blob, GCS).
 * **Architecture**: Completely decouples compute from storage. Splitting queries into leaf and root nodes enables executing fast full-text queries against 100TB+ datasets.
 * **Latest Updates**: Features Ingest V2 as default, AWS Lambda leaf-search offloading, Jaeger v2 endpoint compatibility, and Trino-compatible Elasticsearch APIs.
 * **Best For**: Petabyte-scale log aggregation, audit logging, and tracing where running persistent stateful SSD clusters is cost-prohibitive.
 
-### 10. 🏎️ [Fluent Bit](https://github.com/fluent/fluent-bit) [![GitHub Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)
+### 10. 🏎️ [Fluent Bit](https://github.com/fluent/fluent-bit) [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)
 * **Description**: Extremely lightweight, fast, and low-footprint log, metric, and trace shipper written in C (part of the CNCF Fluent project).
 * **Architecture**: Minimal memory footprint (~500KB to 2MB RAM), zero dependencies, asynchronous I/O, and native parsing filters for Kubernetes containers.
 * **Best For**: Kubernetes DaemonSets, IoT edge computing devices, embedded systems, and containerized cloud environments.
 
-### 11. 🛡️ [Graylog](https://github.com/Graylog2/graylog2-server) [![GitHub Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)
+### 11. 🛡️ [Graylog](https://github.com/Graylog2/graylog2-server) [![GitHub_Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)
 * **Description**: Mature, enterprise-grade centralized log management and SIEM platform offering deep security analysis and threat alerting.
 * **Architecture**: Java backend utilizing MongoDB for configuration state and Elasticsearch/OpenSearch as the underlying search engine.
 * **Latest Updates**: Version 7.0 includes Asset Events risk scoring, vulnerability scanning integration (Qualys/Tenable), AI dashboard summaries, and MCP tooling for LLMs.
 * **Best For**: Enterprise security operations teams (SecOps) requiring audit tracking, alert correlation, and compliance frameworks.
 
-### 12. 📦 [Parseable](https://github.com/parseablehq/parseable) [![GitHub Stars](https://img.shields.io/github/stars/parseablehq/parseable?style=social&color=white)](https://github.com/parseablehq/parseable/stargazers)
+### 12. 📦 [Parseable](https://github.com/parseablehq/parseable) [![GitHub_Stars](https://img.shields.io/github/stars/parseablehq/parseable?style=social&color=white)](https://github.com/parseablehq/parseable/stargazers)
 * **Description**: Lightweight, cloud-native log analytics and storage engine written in Rust, leveraging Apache Parquet and S3 object storage.
 * **Architecture**: Stores logs natively as columnar Parquet files; queries data directly using standard SQL without needing index maintenance.
 * **Best For**: Developers seeking a lightweight, modern SQL-friendly logging backend without the heavy operational overhead of legacy clusters.
